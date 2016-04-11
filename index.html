@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+
+    <div id="container">
+      <div class="board">
+        <div class="hangman-word"> 
+          <!-- display returned hangman string -->
+        </div>
+        <div class="remaining-guesses">
+          <span class="remaining"></span>
+        </div>
+
+        <div class="console">
+          <input type="hidden" class="token"> </input>
+          <input type="text" maxlength=1 class="letter"> </input>
+          <button id="guess">Guess</button>
+        </div>
+        <div class="attempts"></div>
+        <button id="new-game">Start a new game</button>
+        <button id="solution">Get solution</button>
+      </div>
+      <br/>
+
+    </div>
+  </body>
+</html>
