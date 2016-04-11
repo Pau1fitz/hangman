@@ -24,7 +24,7 @@ var app = app || {};
                     $('.token').text(data.token);
                     $(".hangman-word").text(data.hangman);
                });
-                
+
             app.newGame.init();
         }
     },
@@ -35,7 +35,7 @@ var app = app || {};
                 app.startGame.init();
             })  
         }
-    }
+    },
 
     app.takeGuess = {
         init: function() {
@@ -75,7 +75,7 @@ var app = app || {};
                 })
             });
         }
-     }
+     },
 
     app.docOnReady = {
         init: function() {
